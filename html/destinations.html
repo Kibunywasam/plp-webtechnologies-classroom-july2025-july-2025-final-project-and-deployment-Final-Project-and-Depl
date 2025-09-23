@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Explore Nature | Destinations</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/destinations.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">ExploreNature</div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="safety.html">Safety Tips</a></li>
+        <li><a href="contact.html">Booking & Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="content-full"> <!--  Full-width -->
+      <h2>Popular Destinations</h2>
+      <p>Explore some of the most stunning natural locations around the world:</p>
+
+      <div class="cards-grid">
+        <div class="cards">
+          <img src="../images/waterfalls.png" class="gallery-img" data-full="../images/waterfalls.png" alt="Yosemite National Park">
+          <h3>Yosemite National Park</h3>
+          <p>California, USA — Granite cliffs, waterfalls, giant sequoias.</p>
+          <a href="https://www.nps.gov/yose/index.htm" target="_blank" class="btn">Learn More</a>
+          <a href="contact.html?tour=yosemite" class="btn">Book Now</a>
+        </div>
+
+        <div class="cards">
+          <img src="../images/wildlife.png" class="gallery-img" data-full="../images/wildlife.png" alt="Banff National Park">
+          <h3>Banff National Park</h3>
+          <p>Alberta, Canada — Glacial lakes, mountain peaks, wildlife.</p>
+          <a href="https://banfftours.com" target="_blank" class="btn">Learn More</a>
+          <a href="contact.html?tour=banff" class="btn">Book Now</a>
+        </div>
+
+        <div class="cards">
+          <img src="../images/maasai-mara.png" class="gallery-img" data-full="../images/maasai-mara.png" alt="Maasai Mara National Reserve">
+          <h3>Maasai Mara National Reserve</h3>
+          <p>Narok, Kenya — mountain peaks, wildlife.</p>
+          <a href="https://www.maasaimara.com/" target="_blank" class="btn">Learn More</a>
+          <a href="contact.html?tour=maasai" class="btn">Book Now</a>
+        </div>
+
+        <div class="cards">
+          <img src="../images/lakes.png" class="gallery-img" data-full="../images/lakes.png" alt="Plitvice Lakes">
+          <h3>Plitvice Lakes</h3>
+          <p>Croatia — Turquoise lakes, waterfalls, wooden walkways.</p>
+          <a href="https://np-plitvicka-jezera.hr/en/" target="_blank" class="btn">Learn More</a>
+          <a href="contact.html?tour=plitvice" class="btn">Book Now</a>
+        </div>
+
+        <div class="cards">
+          <img src="../images/serengeti.png" class="gallery-img" data-full="../images/serengeti.png" alt="Serengeti">
+          <h3>Serengeti National Park</h3>
+          <p>Tanzania — Great migration, lions, elephants, vast savannah.</p>
+          <a href="https://www.serengeti.com/" target="_blank" class="btn">Learn More</a>
+          <a href="contact.html?tour=serengeti" class="btn">Book Now</a>
+        </div>
+
+        <div class="cards">
+          <img src="../images/Mont-Saint-Michel_vu_du_ciel.png" class="gallery-img" data-full=" ../images/Mont-Saint-Michel_vu_du_ciel.png" alt="Mont-Saint-Michel">
+          <h3>Mont-Saint-Michel</h3>
+          <p>France — tidal island and mainland commune in Normandy, France..</p>
+          <a href="https://www.ot-montsaintmichel.com//" target="_blank" class="btn">Learn More</a>
+          <a href="contact.html?tour=mont-saint" class="btn">Book Now</a>
+        </div>
+
+        <div class="cards">
+          <img src="../images/Blue-Cruise.png" class="gallery-img" data-full="../images/Blue-Cruise.png" alt="Blue Cruise">
+          <h3>Blue Cruise yatch</h3>
+          <p>Turkey — traditional multi-day yachting vacation along the Mediterranean coast.</p>
+          <a href="https://www.bluecruise.co.uk/" target="_blank" class="btn">Learn More</a>
+          <a href="contact.html?tour=blue-cruise" class="btn">Book Now</a>
+        </div>
+
+        <div class="cards">
+          <img src="../images/thailand.png" class="gallery-img" data-full="../images/thailand.png" alt="Wat Arun Thailand">
+          <h3>Wat Arun Thailand</h3>
+          <p>Thailand — Budhist temple with a typical leap tower in ancient Khmer.</p>
+          <a href="https://www.wat-arun.com/" target="_blank" class="btn">Learn More</a>
+          <a href="contact.html?tour=wat-arun" class="btn">Book Now</a>
+        </div>
+      </div>
+
+      <!-- Lightbox Modal -->
+      <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" class="lightbox-content">
+        <div id="caption"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 ExploreNature. Dedicated to preserving and sharing the wonders of the natural world.</p>
+  </footer>
+
+   <script src="../js/gallery.js"></script> 
+  <script src="../js/main.js"></script>
+</body>
+</html>

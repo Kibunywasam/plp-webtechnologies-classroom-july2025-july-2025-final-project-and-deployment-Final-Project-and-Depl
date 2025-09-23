@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Explore Nature | Contact & Bookings</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/contact.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">ExploreNature</div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="safety.html">Safety Tips</a></li>
+        <li><a href="contact.html">Booking & Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!--  Two-column layout wrapper -->
+    <div class="contact-booking-wrapper">
+      
+      <!--  BOOKING COLUMN -->
+      <section class="contact-booking-column">
+        <div class="booking-card">
+          <h2> Book Your Adventure</h2>
+          <p>Choose a tour, pick your date, and we’ll handle the rest — sustainably.</p>
+
+          <form id="booking-form">
+            <div class="form-group">
+              <label for="tour">Select a Tour</label>
+              <select id="tour" required>
+                <option value="">-- Choose a Tour --</option>
+                <option value="yosemite">Yosemite National Park Hike</option>
+                <option value="banff">Banff Lakes & Wildlife Tour</option>
+                <option value="serengeti">Serengeti Safari Experience</option>
+                <option value="plitvice">Plitvice Lakes Walk</option>
+                <option value="maasai">Maasai Mara Cultural Trek</option>
+                <option value="blue-cruise">Turkish Blue Cruise</option>
+                <option value="wat-arun">Wat Arun Cultural Visit</option>
+                <option value="mont-saint">Mont-Saint-Michel Guided Tour</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="date">Preferred Date</label>
+              <input type="date" id="date" required>
+            </div>
+
+            <div class="form-group">
+              <label for="guests">Number of Guests</label>
+              <input type="number" id="guests" min="1" max="12" value="2" required>
+            </div>
+
+            <div class="form-group">
+              <label for="requests">Special Requests</label>
+              <textarea id="requests" rows="3" placeholder="Dietary, accessibility, etc."></textarea>
+            </div>
+
+            <button type="submit" class="btn"> Book Now</button>
+          </form>
+
+          <div id="booking-message" class="form-message"></div>
+        </div>
+      </section>
+
+      <!--  CONTACT COLUMN -->
+      <section class="contact-booking-column">
+        <div class="contact-card">
+          <h2> Get In Touch</h2>
+          <p>Have questions? We’re here to help.</p>
+
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn"> Send Message</button>
+          </form>
+
+          <div id="form-message" class="form-message"></div>
+
+          <div class="contact-info">
+            <p> <a href="mailto:info@explorenature.com">info@explorenature.com</a></p>
+            <p> <a href="tel:+254712345678">+254 712 345 678</a></p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 ExploreNature. Dedicated to preserving and sharing the wonders of the natural world.</p>
+  </footer>
+
+  <script src="../js/form.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

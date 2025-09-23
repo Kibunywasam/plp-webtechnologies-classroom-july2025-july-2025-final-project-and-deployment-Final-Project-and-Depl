@@ -1,0 +1,57 @@
+/* Safety Tips - Flex Grid */
+.tips-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.tip-card {
+  flex: 1 1 280px; /* Minimum 280px, grows to fill */
+  background: #f0f8f0;
+  padding: 1.2rem;
+  border-radius: 8px;
+  border: 1px solid #d0e8d0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.tip-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tip-card strong {
+  color: #278a34;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+/* Permit Requirements - Two-column layout on desktop */
+.permits-flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.permit-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.8rem;
+  background: #f8f9fa;
+  border-left: 3px solid #1e5720;
+  border-radius: 6px;
+}
+
+.permit-item strong {
+  min-width: 100%;
+  color: #1e5720;
+}
+
+.permit-item span {
+  color: #555;
+  font-size: 0.98rem;
+  line-height: 1.5;
+}

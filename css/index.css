@@ -1,0 +1,143 @@
+
+/* Events List */
+.event-list {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* CARD CONTAINER (FLEXBOX) */
+.card-container {
+  display: flex;
+  gap: 1.6rem;
+  flex-wrap: wrap;
+  margin-top: 1.8rem;
+}
+
+.card {
+  flex: 1 1 250px;
+  background: #f0f7f0;
+  padding: 1.6rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  border: 1px solid #d8e9d8;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+  border-color: #a3d6a3;
+}
+
+.card h3 {
+  color: #278a34;
+  margin-bottom: 0.7rem;
+  font-size: 1.3rem;
+}
+
+.card p {
+  color: #555;
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+/*  SIDEBAR STYLES */
+.sidebar {
+  background: white;
+  padding: 1.8rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  align-self: start;
+  position: sticky;
+  top: 1rem;
+}
+
+.sidebar h3 {
+  color: #1e5720;
+  margin-bottom: 1.2rem;
+  font-size: 1.3rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e8f5e8;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin-bottom: 1.8rem;
+}
+
+.sidebar li {
+  margin-bottom: 0.9rem;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.98rem;
+  transition: color 0.3s ease;
+}
+
+.sidebar a:hover {
+  color: #917c8a;
+  text-decoration: underline;
+}
+
+/* Featured Destination */
+.sidebar-heading {
+  margin-top: 1.6rem;
+}
+
+.featured {
+  margin-top: 0.8rem;
+}
+
+
+.featured h4 {
+  font-size: 1.1rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.featured p {
+  font-size: 0.92rem;
+  color: #666;
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+}
+
+.sidebar-img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+  border: 1px solid #eee;
+}
+
+/*  RESPONSIVE DESIGN - MEDIA QUERIES */
+
+/* Tablet View (max-width: 768px) */
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 calc(50% - 1rem);
+  }
+
+  .sidebar-img {
+    width: 100%;
+  }
+}
+
+
+/* Mobile View (max-width: 480px) */
+@media (max-width: 480px) {
+.card {
+    flex: 1 1 100%;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: static; /* Disable sticky on small screens if needed */
+    padding: 1.3rem;
+  }
+}
