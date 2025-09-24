@@ -1,12 +1,11 @@
 ## Click the link below to visit the deployed website 
-[Github pages](https://kibunywasam.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
-[Netlify](https://web-dev-final-project-and-deployment.netlify.app/)
+[Github pages](https://kibunywasam.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)  
+[Netlify](https://web-dev-final-project-and-deployment.netlify.app/)  
 [Vercel](https://web-dev-final-project-and-deploymen.vercel.app/)
 
 ## Or copy any of the link below
-Github pages -- https://kibunywasam.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
-Netlify -- https://web-dev-final-project-and-deployment.netlify.app/
-
+Github pages -- https://kibunywasam.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/  
+Netlify -- https://web-dev-final-project-and-deployment.netlify.app/  
 Vercel -- https://web-dev-final-project-and-deploymen.vercel.app/
 
 
