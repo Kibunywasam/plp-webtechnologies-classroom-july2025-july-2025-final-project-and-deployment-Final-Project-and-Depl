@@ -1,3 +1,14 @@
+# Click the link below to visit the deployed website 
+[Github pages](URL)
+[Netlify](https://web-dev-final-project-and-deployment.netlify.app/)
+[Vercel](https://web-dev-final-project-and-deploymen.vercel.app/)
+
+# Or copy any of the link below
+Github pages -- 
+Netlify -- https://web-dev-final-project-and-deployment.netlify.app/
+Vercel -- https://web-dev-final-project-and-deploymen.vercel.app/
+
+
 # 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
 
 You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
